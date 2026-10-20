@@ -13,11 +13,11 @@ def organizar(diretorio):
     DOCS_DIR = Path(diretorio).joinpath('documentos')
     OUTROS_DIR = Path(diretorio).joinpath('outros')
 
-    AUDIOS_DIR.mkdir(parents=True, exist_ok=True)
-    VIDEOS_DIR.mkdir(parents=True, exist_ok=True)
-    IMAGENS_DIR.mkdir(parents=True, exist_ok=True)
-    DOCS_DIR.mkdir(parents=True, exist_ok=True)
-    OUTROS_DIR.mkdir(parents=True, exist_ok=True)
+    AUDIOS_DIR.mkdir(exist_ok=True)
+    VIDEOS_DIR.mkdir(exist_ok=True)
+    IMAGENS_DIR.mkdir(exist_ok=True)
+    DOCS_DIR.mkdir(exist_ok=True)
+    OUTROS_DIR.mkdir(exist_ok=True)
 
     for arquivo in Path(diretorio).iterdir():
         if arquivo.is_dir():
