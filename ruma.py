@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 
-audios_ext = ['.mp3', '.wav']
+audios_ext = ['.mp3', '.wav', '.flac']
 videos_ext = ['.mp4', '.mov', '.avi']
 imagens_ext = ['.jpg', '.jpeg', '.png']
 documentos_ext = ['.txt', '.odt', '.pdf']

@@ -44,7 +44,7 @@ O algoritmo identifica a extensão de cada arquivo e o move para uma pasta corre
 
 | Pasta         | Extensões                |
 |---------------|--------------------------|
-| `áudios/`     | `.mp3`, `.wav`           |
+| `áudios/`     | `.mp3`, `.wav`, `.flac`  |
 | `vídeos/`     | `.mp4`, `.mov`, `.avi`   |
 | `imagens/`    | `.jpg`, `.jpeg`, `.png`  |
 | `documentos/` | `.txt`, `.odt`, `.pdf`   |
